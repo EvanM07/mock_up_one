@@ -242,4 +242,8 @@ body {
         height: auto;
         margin: auto;
     }
+
+    #about_title {
+        font-size: 2rem;
+    }
   }
