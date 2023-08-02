@@ -225,76 +225,76 @@ body {
 /*Contact Form Styling */
 
 .contact-form {
-  position: fixed;
-  display: none;
-  z-index: 9;
-  right: 0px;
-  bottom: 0px;
-  max-width: 400px;
-  margin-bottom: 19px;
-  margin-right: 19px;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 16px;
-  padding: 5px 10px;
-  background-color: #f0f0f0;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.close-btn:hover {
-  background-color: #dcdcdc;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-textarea {
-  resize: vertical;
-}
-
-#submit_button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#submit_button:hover {
-  background-color: #45a049;
-}
+    position: fixed;
+    display: none;
+    z-index: 9;
+    right: 0px;
+    bottom: 0px;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px; 
+    right: 5px; 
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  #submit_button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submit_button:hover {
+    background-color: #45a049;
+  }
 
 /* Starting of the media queries */
 
@@ -329,6 +329,6 @@ textarea {
     /* This is website title */
     .display-4 {
         padding-top: 60px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 }

@@ -59,6 +59,7 @@
       <h1 id="about_title">My Story</h1>
       <div id="about_container">
         <img
+          loading="lazy"
           id="about_image"
           src="./images/portrait.png"
           width="400px"
@@ -95,6 +96,7 @@
       <div id="services_grid">
         <div class="card" style="width: 23rem">
           <img
+            loading="lazy"
             class="card-img-top"
             src="./images/group_pic.png"
             alt="A group of people sitting together"
@@ -115,6 +117,7 @@
 
         <div class="card" style="width: 23rem">
           <img
+            loading="lazy"
             class="card-img-top"
             src="./images/two_people_pic.png"
             alt="Two people sitting on the beach talking"
@@ -134,6 +137,7 @@
 
         <div class="card" style="width: 23rem">
           <img
+            loading="lazy"
             class="card-img-top"
             src="./images/message_on_beach.png"
             alt="person getting a message on the beach"
@@ -208,6 +212,10 @@
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required />
         </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
         <div class="form-group">
           <label for="message">Message:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
