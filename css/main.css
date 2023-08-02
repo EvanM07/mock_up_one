@@ -234,6 +234,9 @@ body {
     #about_container{
         flex-wrap: wrap;
     }
+  }
+
+  @media screen and (max-width: 600px) {
     #about_image{
         max-width: 80%;
         height: auto;
