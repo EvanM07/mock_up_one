@@ -9,8 +9,6 @@ body {
 #navbar {
   background-color: lightblue;
   height: 3rem;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
 }
 
 .nav-link {
