@@ -2,10 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
+    background-color: lightblue !important;
+}
+.nav {
     background-color: lightblue;
 
 }
-
 #navbar {
   background-color: lightblue;
   height: 3rem;
@@ -30,14 +32,14 @@ body {
 /* Start of the about section */
   #about_title {
     font-size: 3rem;
-    font-weight: bold;
+    font-weight:lighter;
     color: #333;
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
     padding-bottom: 2rem;
     background-color: lightblue;
     margin-bottom: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 #about_container {
@@ -67,6 +69,16 @@ body {
 
 /* Services Section */
 
+#services_title {
+    font-size: 3rem;
+    font-weight:lighter;
+    color: #333;
+    letter-spacing: 0.1em;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
 #services_grid {
     padding-top: 40px;
     display: flex;
@@ -75,8 +87,8 @@ body {
     justify-content: center;
     gap: 5%;
     background-color: lightblue;
-
 }
+
 .card {
     margin-bottom: 20px;
     border-bottom-left-radius: 8px;
@@ -110,6 +122,44 @@ body {
           "Lucida Sans", Arial, sans-serif;
 }
 
+  /* Start of the Testimonial styling */
+
+  #review_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: black;
+    background-color: lightblue;
+    max-width: 95%;
+    margin: 0 auto;
+}
+#review_title {
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    text-align: center;
+    grid-row-start: 1;
+    font-size: 3rem;
+    font-weight:lighter;
+    color: #333;
+    letter-spacing: 0.1em;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#review_one {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding-left: 20px;
+}
+#review_two {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
 /* Start of the footer styling */
 
 #footer_container {
@@ -131,8 +181,8 @@ body {
 /* Contact Me button Styling */
 .btn {
     position: fixed; 
-    bottom: 1.75vw; 
-    right: 1.75vw; 
+    bottom: 0; 
+    right: 0; 
     -webkit-animation: movePopup 3s; 
     animation: movePopup 3s; 
 }

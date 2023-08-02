@@ -19,17 +19,22 @@
     />
   </head>
   <body>
+    <div id="home"></div>
+
     <!-- Start of nav bar -->
     <div id="navbar">
-      <ul class="nav justify-content-center">
+      <ul class="nav justify-content-center fixed-top">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about_title">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#services_title">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#review_title">Testimonials</a>
         </li>
       </ul>
     </div>
@@ -51,42 +56,42 @@
     <!-- End of Jumbotron -->
     <main>
       <!--Start of about section -->
-      <h1 id="about_title">My story</h1>
+      <h1 id="about_title">My Story</h1>
       <div id="about_container">
+        <img
+          id="about_image"
+          src="./images/portrait.png"
+          width="400px"
+          height="400px"
+          alt=" My portrait Picture"
+        />
 
-            <img id="about_image"
-              src="./images/portrait.png"
-              width="400px"
-              height="400px"
-              alt=" My portrait Picture"
-            />
-
-          <div id="about_paragraph">
-            <p >
-              Once upon a time, there was a hippy named Sara who was in touch
-              with the human soul and mother nature. Sara had always been
-              interested in spiritual and physical healing, and had spent years
-              studying different techniques and methods to help people find
-              peace and balance in their lives. After many years of learning and
-              practicing, Sara decided to start a business that would help
-              others achieve the same sense of harmony that Sara had found.
-              Sara's business was called Soulful Healing, and it quickly became
-              known as a place where people could come to find healing for their
-              mind, body, and soul. Sara offered a variety of services,
-              including yoga classes, meditation sessions, massage therapy, and
-              more. Sara also created a welcoming and peaceful environment that
-              made everyone feel at home. Over time, Soulful Healing became a
-              beloved part of the community, and Sara’s reputation as a healer
-              grew far and wide. Today, Soulful Healing is still going strong,
-              helping people find peace and balance in their lives every day.
-            </p>
-          </div>
+        <div id="about_paragraph">
+          <p>
+            Once upon a time, there was a hippy named Sara who was in touch with
+            the human soul and mother nature. Sara had always been interested in
+            spiritual and physical healing, and had spent years studying
+            different techniques and methods to help people find peace and
+            balance in their lives. After many years of learning and practicing,
+            Sara decided to start a business that would help others achieve the
+            same sense of harmony that Sara had found. Sara's business was
+            called Soulful Healing, and it quickly became known as a place where
+            people could come to find healing for their mind, body, and soul.
+            Sara offered a variety of services, including yoga classes,
+            meditation sessions, massage therapy, and more. Sara also created a
+            welcoming and peaceful environment that made everyone feel at home.
+            Over time, Soulful Healing became a beloved part of the community,
+            and Sara’s reputation as a healer grew far and wide. Today, Soulful
+            Healing is still going strong, helping people find peace and balance
+            in their lives every day.
+          </p>
         </div>
+      </div>
 
       <!-- End of about section-->
 
       <!-- Start of Services section -->
-
+      <h1 id="services_title"> My Services </h1>
       <div id="services_grid">
         <div class="card" style="width: 23rem">
           <img
@@ -97,13 +102,13 @@
           <div class="card-body">
             <h5 class="card-title">Group Therapy</h5>
             <p class="card-text">
-              Our group therapy sessions are designed to offer a refreshing and holistic
-              approach to healing and personal growth. Whether you're seeking
-              relief from stress, anxiety, depression, or simply looking to
-              enhance your self-awareness and well-being, our therapy sessions
-              by the beach offer a unique and transformative experience. Step
-              into a journey of self-discovery, healing, and personal growth in
-              the company of the sun, sand, and sea.
+              Our group therapy sessions are designed to offer a refreshing and
+              holistic approach to healing and personal growth. Whether you're
+              seeking relief from stress, anxiety, depression, or simply looking
+              to enhance your self-awareness and well-being, our therapy
+              sessions by the beach offer a unique and transformative
+              experience. Step into a journey of self-discovery, healing, and
+              personal growth in the company of the sun, sand, and sea.
             </p>
           </div>
         </div>
@@ -128,7 +133,11 @@
         </div>
 
         <div class="card" style="width: 23rem">
-          <img class="card-img-top" src="./images/message_on_beach.png" alt="person getting a message on the beach" />
+          <img
+            class="card-img-top"
+            src="./images/message_on_beach.png"
+            alt="person getting a message on the beach"
+          />
           <div class="card-body">
             <h5 class="card-title">Therapeutic Messages</h5>
             <p class="card-text">
@@ -143,40 +152,74 @@
       </div>
     </main>
 
+    <div id="review_container">
+      <h1 id="review_title">Testimonials</h1>
+      <div id="review_one">
+        <em
+          ><q>
+            I had an incredible time at therapy – a journey of self-discovery,
+            growth, and healing. I wholeheartedly recommend it to anyone seeking
+            a brighter path towards understanding themselves and finding inner
+            peace.</q
+          ></em>
+          <br>
+          <strong>
+            -Tim Masters
+          </strong>
+      </div>
+      <div id="review_two">
+        <em
+          ><q>
+            My experience with therapy was an absolute blessing. It provided me
+            with a safe space to explore my thoughts and emotions, leading me to
+            profound insights and personal breakthroughs. I can't recommend
+            therapy enough for anyone who wants to embrace positive change and
+            embrace a more fulfilling life.</q
+          ></em>
+          <br>
+          <strong>
+            -Gigi Hoeller
+          </strong>
+      </div>
+    </div>
+
     <footer>
-        
-        <div id="footer_container">
-            
-            <p id="footer_paragraph">
-                You can contact me at 604-234-1223 or by email in the contact me menu
-                <br>
-                My friend <a href="https://evanm02.github.io/The_Space_Station/"> <strong> Tammy</strong></a> is also available to talk. 
-            </p>
-            
-        </div>
+      <div id="footer_container">
+        <p id="footer_paragraph">
+          You can contact me at 604-234-1223 or by email in the contact me menu
+          <br />
+          My friend
+          <a href="https://evanm02.github.io/The_Space_Station/">
+            <strong> Tammy</strong></a
+          >
+          is also available to talk.
+        </p>
+      </div>
     </footer>
 
     <!-- Start of the contact form-->
     <div class="contact-form">
-        <button class="close-btn" onclick="closeForm()">Close</button>
-        <form action="#" method="POST">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <button id="submit_button" type="submit">Submit</button>
-        </form>
-      </div>
+      <button class="close-btn" onclick="closeForm()">Close</button>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button id="submit_button" type="submit">Submit</button>
+      </form>
+    </div>
 
-      <!--End of the contact form-->
-    <button class="btn btn-primary" type="submit" onclick="openForm()">Contact Me</button>
+    <!--End of the contact form-->
+    <button class="btn btn-primary" type="submit" onclick="openForm()">
+      Contact Me
+    </button>
   </body>
 </html>
