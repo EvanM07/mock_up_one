@@ -149,11 +149,6 @@ body {
 
 /*Contact Form Styling */
 
-/* This is to open the contact form */
-.btn {
-    margin-right: 25px;
-}
-
 .contact-form {
     position:fixed;
     display: none; 
@@ -246,4 +241,9 @@ body {
     #about_title {
         font-size: 2rem;
     }
+    
+    /* This is to open the contact form */
+.btn {
+    margin-right: 25px;
+}
   }
