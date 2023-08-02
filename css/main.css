@@ -233,7 +233,7 @@ body {
 
   @media screen and (max-width: 600px) {
     #about_image{
-        max-width: 80%;
+        max-width: 100%;
         height: auto;
         margin: auto;
     }
@@ -241,7 +241,7 @@ body {
     #about_title {
         font-size: 2rem;
     }
-    
+
     /* This is to open the contact form */
 .btn {
     margin-right: 25px;
