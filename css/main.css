@@ -151,7 +151,7 @@ body {
 
 /* This is to open the contact form */
 .btn {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .contact-form {
@@ -235,7 +235,7 @@ body {
         flex-wrap: wrap;
     }
     #about_image{
-        max-width: 75%;
+        max-width: 80%;
         height: auto;
         margin: auto;
     }
