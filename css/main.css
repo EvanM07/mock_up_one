@@ -321,9 +321,13 @@ textarea {
 
   /* This is to open the contact form */
   .btn {
-    margin-right: 15px;
+    margin-right: 5px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 473px) {
+    /* This is website title */
+    .display-4 {
+        padding-top: 60px;
+    }
 }
