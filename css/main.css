@@ -149,6 +149,11 @@ body {
 
 /*Contact Form Styling */
 
+/* This is to open the contact form */
+.btn {
+    margin-right: 20px;
+}
+
 .contact-form {
     position:fixed;
     display: none; 
@@ -230,7 +235,7 @@ body {
         flex-wrap: wrap;
     }
     #about_image{
-        max-width: 70%;
+        max-width: 75%;
         height: auto;
         margin: auto;
     }
