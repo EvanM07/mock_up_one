@@ -231,4 +231,9 @@ body {
     #about_container{
         flex-wrap: wrap;
     }
+    #about_image{
+        max-width: 60%;
+        height: auto;
+        margin: auto;
+    }
   }
